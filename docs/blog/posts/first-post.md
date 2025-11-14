@@ -6,4 +6,4 @@ date:
 
 # Test blog post
 
-Lorem ipsum whatever whatever
+Lorem ipsum whatever whatever. Here's some more.
