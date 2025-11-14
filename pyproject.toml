@@ -1,0 +1,9 @@
+[project]
+name = "jax-blog"
+version = "0.1.0"
+description = "Initial JAX blog experiment."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.7.0",
+]
