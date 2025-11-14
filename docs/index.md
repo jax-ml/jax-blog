@@ -1,3 +1,3 @@
-# JAX blog
+# JAX Developer Blog
 
 Work in progress
