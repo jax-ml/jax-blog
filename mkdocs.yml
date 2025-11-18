@@ -24,4 +24,5 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_dir: .
