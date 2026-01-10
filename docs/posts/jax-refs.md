@@ -9,11 +9,11 @@ tags:
 
 # JAX refs: mutable state in a functional world
 JAX version 0.8.0 introduced a new feature that the team has been working on for a while: mutable array references, or *refs* for short.
-These new ref objects for limited use of mutable state within JAX's otherwise purely functional paradigm, and we believe it's going to unlock a whole new level of flexibility and expressiveness when working in JAX.
+These new ref objects provide for limited-scope mutable state within JAX's otherwise purely functional paradigm, and we believe it's going to unlock a whole new level of flexibility and expressiveness when working in JAX.
 
 <!-- more -->
 
-## What are refs and Why Do We Need Them?
+## What are refs and why do we need them?
 JAX's core APIs are built around functional programming, where functions are [pure](https://docs.jax.dev/en/latest/notebooks/Common_Gotchas_in_JAX.html#pure-functions) and free from side effects.
 This design principle is a major strength, enabling powerful transformations like automatic differentiation (`jax.grad`), vectorization (`jax.vmap`), and compilation (`jax.jit`) with efficient and predictable behavior.
 
